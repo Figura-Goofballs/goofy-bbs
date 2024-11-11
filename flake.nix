@@ -7,6 +7,14 @@
         src = ./.;
         pkgs = pkgs;
         target = null;
+        attrs.buildInputs = [pkgs.acl.out pkgs.sqlite.out];
+        attrs.cargoBuildFlags = ["-vvv"];
+        attrs.LIBRARY_PATH = "${pkgs.acl.out}";
+        attrs.CARGO_BUILD_RUSTFLAGS = [
+          # libacl really hates me
+          "-C" "link-args=-v -L${pkgs.acl.out}/lib"
+          "-v"
+        ];
       };
     });
   };
