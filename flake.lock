@@ -26,11 +26,11 @@
         "nixpkgs": "nixpkgs_3"
       },
       "locked": {
-        "lastModified": 1730155900,
-        "narHash": "sha256-3McD1c02d9cFXL+EC+PE49Ko+uVAQglbLv/QZ84Sgu4=",
+        "lastModified": 1731348764,
+        "narHash": "sha256-2TRnf6nSNONHX3UyZYuUp+05WRqsqXvHftC6VFHzAHk=",
         "owner": "poollovernathan",
         "repo": "fia",
-        "rev": "949c9d5a488a71b1e4e61edadb56988a7e8d4503",
+        "rev": "51fc6d22a72d44eee7be128f4b96b363a8881722",
         "type": "github"
       },
       "original": {
